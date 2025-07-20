@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Mulish,Mulish,Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border: none;
+  outline: none;  
+  cursor: pointer;
+}
+.home p{
+  font-weight: 600;
+  /* color: #e1e1e3;  */
+}
+.sub{
+  background-color: azure;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+#tag{
+  color: rgb(15, 15, 15);
+  font-size: 2rem;
+  margin: 2.5rem auto;
+}
+.hear-more {
+  width: 30vw;
+  height: 6vh;
+  color: whitesmoke;
+  font-size: large;
+  margin: 2rem;
+  background: linear-gradient(to right,orangered,rgb(253, 75, 10),orangered,orange);
+  border-radius: 10px;
+}
+.hear-more:hover{
+  background: linear-gradient(to left,orangered,rgb(252, 73, 8),orangered,orange);
+}
+#placed{
+  color: black;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+.report-btn{
+  width: 25vw;
+  height: 7vh;
+  color: orangered;
+  font-size: medium;
+  background: rgb(255, 224, 203);
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+.report-btn:hover{
+  background: rgb(247, 194, 159);
+}
+.upcoming{
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  margin: .5rem auto 2rem;
+}
+
+
+
+@media (max-width : 950px){
+  .hear-more {
+    width: 60vw;
+    height: 6vh;
+    color: whitesmoke;
+    font-size: medium;
+    margin: 2rem;
+    background: linear-gradient(to right,orangered,rgb(253, 75, 10),orangered,orange);
+    border-radius: 10px;
+  }
+}
+@media (max-width : 480px){
+  .tag{
+    font-size: 1.2rem;
+  }
+}
